@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hospital Management System</h1>
+    </header>
+    <main>
+        <section class="search-section">
+            <h2>Find Your Doctor</h2>
+            <label for="symptom1">Enter First Symptom:</label>
+            <input type="text" id="symptom1" placeholder="e.g., Skin Rash">
+            
+            <label for="symptom2">Enter Second Symptom:</label>
+            <input type="text" id="symptom2" placeholder="e.g., Itching">
+            
+            <button onclick="findDoctor()">Search</button>
+        </section>
+        <section class="result-section">
+            <h2>Doctor's Details</h2>
+            <p id="doctorName"></p>
+<p id="specialization"></p>
+<p id="education"></p>
+<p id="college"></p>
+<p id="consultationFee"></p>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
